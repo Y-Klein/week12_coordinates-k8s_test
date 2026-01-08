@@ -1,0 +1,1 @@
+# week12_coordinates-k8s_test
