@@ -19,13 +19,13 @@ spec:
         ports:
         - containerPort: 5432
           name: web
-      - env:
+        env:
         - name: POSTGRES_DB
-          value: coordinates_db
+          value: "coordinates_db"
         - name: POSTGRES_USER
-          value: postgres
+          value: "postgres"
         - name: POSTGRES_PASSWORD
-          value: postgres
+          value: "postgres"
 
         volumeMounts:
         - name:  postgres-storage

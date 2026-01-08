@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: coordinates-api-svc
   labels:
-    app: coordinates_api
+    app: coordinates-api
 spec:
   type: NodePort
   ports:
@@ -11,6 +11,5 @@ spec:
     targetPort: 8000
     nodePort: 30080
     name: web
-  clusterIP: None
   selector:
-    app: coordinates_api
+    app: coordinates-api
