@@ -19,7 +19,7 @@ spec:
         image: yklain/coordinates_api:v1
         env:
         - name: POSTGRES_HOST
-          value: "postgres-svc.0"
+          value: "postgres-svc"
         - name: POSTGRES_PORT
           value: "5432"
         - name: POSTGRES_DB
